@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fields_array">
+        <item>Administration</item>
+        <item>Agriculture</item>>
+        <item>Architecture</item>
+        <item>Arts</item>
+        <item>Audio/Video</item>
+        <item>Business Management</item>
+        <item>Communications</item>
+        <item>Education</item>
+        <item>Training</item>
+        <item>Finance</item>
+        <item>Government</item>
+        <item>Public Administration</item>
+        <item>Health Science</item>
+        <item>Hospitality</item>
+        <item>Tourism</item>
+        <item>Human Services</item>
+        <item>Information Technology</item>
+        <item>Law</item>
+        <item>Security</item>
+        <item>Manufacturing</item>
+        <item>Marketing</item>
+        <item>Science</item>
+        <item>Technology</item>
+        <item>Transportation</item>
+        <item>Logistics</item>
+    </string-array>
+</resources>
+

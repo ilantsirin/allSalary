@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_fieldname"
+        android:textColor="?attr/colorAccent"
+        />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fieldSpinner" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pos"
+        android:textColor="?attr/colorAccent"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/posName"
+        android:hint="@string/txt_position"
+        android:lines="1"
+        android:maxLength="30"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salary"
+        android:textColor="?attr/colorAccent"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSalary"
+        android:inputType="number"
+        android:hint="@string/txt_salary"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exp"
+        android:textColor="?attr/colorAccent"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yrsExperience"
+        android:inputType="number"
+        android:hint="@string/txt_experience"/>
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="?attr/colorAccent"
+        android:focusable="false"
+        android:hint="@string/action_add_location"
+        android:drawableEnd="@drawable/ic_action_place"
+        android:drawableRight="@drawable/ic_action_place"
+        android:id="@+id/addLocation" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_create"
+        android:id="@+id/btnCreate" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back"
+        android:id="@+id/btnBack" />
+
+</LinearLayout>

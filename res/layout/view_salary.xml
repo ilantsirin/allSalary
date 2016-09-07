@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yarik.salaryshare.activities.ViewSalary">
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Field"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorAccent" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fieldName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        />
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pos"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorAccent" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/posName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        />
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salary"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorAccent" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/salaryNum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        />
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exp"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorAccent" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expNum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
